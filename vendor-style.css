@@ -7,13 +7,13 @@ svg {
 
 svg #title {
     fill: #190806;
-    font-size: 32px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 svg #subtitle {
     fill: #666;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 svg #footline {
@@ -22,23 +22,23 @@ svg #footline {
 
 svg #notes {
     fill: #222;
-    font-size: 14px;
+    font-size: 12px;
     font-style: italic;
 }
 
 svg #source {
     fill: #222;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 svg #credit {
   fill: #fd533c;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
 }
 
 svg #legend {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 svg #x-axis text,
@@ -116,7 +116,7 @@ svg .line-chart #plot path.line5 {
 }
 
 svg .bar-chart #plot text {
-    fill: #ededed;
+    fill: #d3d3d3;
     font-size: 14px;
 }
 
