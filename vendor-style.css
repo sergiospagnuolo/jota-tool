@@ -85,20 +85,20 @@ svg .line-chart #plot path.line2 {
 
 svg .bar-chart #plot .bar3 rect,
 svg #legend .group3 circle {
-    fill: #7e291e;
+    fill: #b13a2a;
 }
 
 svg .line-chart #plot path.line3 {
-    stroke: #7e291e;
+    stroke: #b13a2a;
 }
 
 svg .bar-chart #plot .bar4 rect,
 svg #legend .group4 circle {
-    fill: #4b1812;
+    fill: #7e291e;
 }
 
 svg .line-chart #plot path.line4 {
-    stroke: #4b1812;
+    stroke: #7e291e;
 }
 
 svg .bar-chart #plot .bar5 rect,
