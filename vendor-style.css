@@ -4,7 +4,7 @@
 svg {
     font-family: 'PT Serif', Georgia, Times, serif;
 }
-``
+
 svg #title {
     fill: #32100c;
     font-size: 32px;
@@ -67,51 +67,51 @@ svg .line-chart #plot path.line0 {
 
 svg .bar-chart #plot .bar1 rect,
 svg #legend .group1 circle  {
-    fill: #feedeb;
+    fill: #febab1;
 }
 
 svg .line-chart #plot path.line1 {
-    stroke: #feedeb;
+    stroke: #febab1;
 }
 
 svg .bar-chart #plot .bar2 rect,
 svg #legend .group2 circle {
-    fill: #febab1;
+    fill: #fd8676;
 }
 
 svg .line-chart #plot path.line2 {
-    stroke: #febab1;
+    stroke: #fd8676;
 }
 
 svg .bar-chart #plot .bar3 rect,
 svg #legend .group3 circle {
-    fill: #fd8676;
+    fill: #7e291e;
 }
 
 svg .line-chart #plot path.line3 {
-    stroke: #fd8676;
+    stroke: #7e291e;
 }
 
 svg .bar-chart #plot .bar4 rect,
 svg #legend .group4 circle {
-    fill: #7e291e;
+    fill: #4b1812;
 }
 
 svg .line-chart #plot path.line4 {
-    stroke: #7e291e;
+    stroke: #4b1812;
 }
 
 svg .bar-chart #plot .bar5 rect,
 svg #legend .group5 circle {
-    fill: #32100c;
+    fill: #190806;
 }
 
 svg .line-chart #plot path.line5 {
-    stroke: #32100c;
+    stroke: #190806;
 }
 
 svg .bar-chart #plot text {
-    fill: #ededed;
+    fill: #666;
     font-size: 14px;
 }
 
