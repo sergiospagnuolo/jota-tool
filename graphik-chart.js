@@ -70,7 +70,8 @@ function GraphikChart(display, layout) {
         var credit = footer.append('text')
             .attr('id', 'credit')
             .attr('dy', '1em')
-            .text(config.credit)
+            //.text(config.credit)
+            .text("JOTA.INFO")
 
         var source = footer.append('text')
             .attr('id', 'source')

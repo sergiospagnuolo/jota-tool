@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Graphik</title>
+    <title>Graphik - JOTA</title>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="index.css"/>
@@ -15,31 +15,31 @@
   </head>
   <body>
     <nav>
-      <div class="open-menu"><button class="open">Open...</button></div>
-      <h1>Graphik</h1>
+      <div class="open-menu"><button class="open">Abrir gráfico anterior...</button></div>
+      <h1>Graphik - JOTA</h1>
       <label class="type"><input type="radio" name="type" value="bar" checked="checked"/><span>Bar chart</span></label><label class="type"><input type="radio" name="type" value="line"/><span>Line chart</span></label>
-      <button class="transpose">Swap rows and columns</button>
-      <p>Paste data from a spreadsheet here:</p>
+      <button class="transpose">Alterar ordem de linhas para colunas</button>
+      <p>Cole dados de uma planilha aqui:</p>
       <textarea name="input"></textarea>
-      <label>Title<input name="title"></label>
-      <label>Subtitle<input name="subtitle"></label>
+      <label>Título<input name="title"></label>
+      <label>Subtítulo<input name="subtitle"></label>
       <hr/>
-      <label>Tick interval<input name="tickInterval"></label>
+      <label>Intervalo dos ticks<input name="tickInterval"></label>
       <hr/>
-      <label>Data prefix<input name="dataPrefix"></label>
-      <label>Data suffix<input name="dataSuffix"></label>
+      <label>Prefixo dos dados<input name="dataPrefix"></label>
+      <label>Sufixo dos dados<input name="dataSuffix"></label>
       <hr/>
-      <label>Notes<input name="notes"></label>
-      <label>Source<input name="source"></label>
-      <label>Credit<input name="credit"></label>
+      <label>Notas<input name="notes"></label>
+      <label>Fonte<input name="source"></label>
+      <label>Adiciona linha? (s/n)<input name="credit"></label>
       <hr/>
-      <button class="show-advanced">Show advanced options</button>
+      <button class="show-advanced">Mostrar opções avançadas</button>
       <div class="advanced">
-        <p>Custom JavaScript:</p>
+        <p>JavaScript customizado:</p>
         <textarea name="customScript"></textarea>
         <hr/>
       </div>
-      <button class="create png">Create PNG<br/><span>works everywhere</span></button><button class="create svg">Create SVG<br/><span>always looks crisp</span></button>
+      <button class="create png">Criar imagem PNG<br/><span>estático</span></button><button class="create svg">Criar SVG<br/><span>embedar no editor de html</span></button>
     </nav>
     <div id="display"></div>
   </body>
