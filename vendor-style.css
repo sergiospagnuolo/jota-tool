@@ -53,7 +53,7 @@ svg .line-chart #x-axis .tick line {
 }
 
 svg #grid line {
-    stroke: #ddd;
+    stroke: #cbcbcb;
 }
 
 svg .line-chart #plot path {
@@ -116,7 +116,7 @@ svg .line-chart #plot path.line5 {
 }
 
 svg .bar-chart #plot text {
-    fill: #a8a8a8;
+    fill: #ededed;
     font-size: 14px;
 }
 
