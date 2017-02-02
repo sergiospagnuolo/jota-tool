@@ -7,13 +7,13 @@ svg {
 ``
 svg #title {
     fill: #fd533c;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 svg #subtitle {
     fill: #666;
-    font-size: 15px;
+    font-size: 22px;
 }
 
 svg #footline {
@@ -111,7 +111,7 @@ svg .line-chart #plot path.line5 {
 }
 
 svg .bar-chart #plot text {
-    fill: #222;
+    fill: #ededed;
     font-size: 14px;
 }
 
