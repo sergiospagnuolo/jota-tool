@@ -1,0 +1,46 @@
+{
+    "width": 500,
+    "padding": {
+        "intertitle": 5,
+        "prechart": 10,
+        "postchart": 5,
+        "prefootline": 10,
+        "postfootline": 5,
+        "top": 10,
+        "right": 10,
+        "bottom": 10,
+        "left": 10
+    },
+    "bar": {
+        "height": 25,
+        "tickSizeX": 8,
+        "tickSizeY": 0,
+        "drawXAxis": true,
+        "drawLabels": true,
+        "useInternalLabels": true,
+        "padding": {
+            "postlegend": 15,
+            "interlegend": 10,
+            "inner": 0.2,
+            "outer": 0,
+            "axisX": 0,
+            "axisY": 1,
+            "tickX": 2,
+            "tickY": 5,
+            "label": 5
+        }
+    },
+    "line": {
+        "plotHeight": 300,
+        "tickSizeX": 8,
+        "tickSizeY": 0,
+        "padding": {
+            "postlegend": 25,
+            "interlegend": 10,
+            "axisX": 0,
+            "axisY": 0,
+            "tickX": 15,
+            "tickY": 5
+        }
+    }
+}

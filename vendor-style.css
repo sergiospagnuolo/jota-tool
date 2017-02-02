@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+
+
+svg {
+    font-family: 'PT Serif', Georgia, Times, serif;
+}
+``
+svg #title {
+    fill: #fd533c;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+svg #subtitle {
+    fill: #666;
+    font-size: 15px;
+}
+
+svg #footline {
+    stroke: #a7002c;
+}
+
+svg #notes {
+    fill: #222;
+    font-size: 14px;
+    font-style: italic;
+}
+
+svg #credit,
+svg #source {
+    fill: #222;
+    font-size: 11px;
+}
+
+svg #legend {
+    font-size: 13px;
+}
+
+svg #x-axis text,
+svg #y-axis text {
+    fill: #222;
+    font-size: 14px;
+}
+
+svg .line-chart #x-axis .tick line {
+    stroke: #222;
+    stroke-width: 2px;
+}
+
+svg #grid line {
+    stroke: #ddd;
+}
+
+svg .line-chart #plot path {
+    fill: none;
+    stroke-width: 3px;
+}
+
+svg .bar-chart #plot .bar0 rect,
+svg #legend .group0 circle {
+    fill: #FD533C;
+}
+
+svg .line-chart #plot path.line0 {
+    stroke: #FD533C;
+}
+
+svg .bar-chart #plot .bar1 rect,
+svg #legend .group1 circle  {
+    fill: #fecbc4;
+}
+
+svg .line-chart #plot path.line1 {
+    stroke: #fecbc4;
+}
+
+svg .bar-chart #plot .bar2 rect,
+svg #legend .group2 circle {
+    fill: #32100c;
+}
+
+svg .line-chart #plot path.line2 {
+    stroke: #32100c;
+}
+
+svg .bar-chart #plot .bar3 rect,
+svg #legend .group3 circle {
+    fill: #fea99d;
+}
+
+svg .line-chart #plot path.line3 {
+    stroke: #fea99d;
+}
+
+svg .bar-chart #plot .bar4 rect,
+svg #legend .group4 circle {
+    fill: #7e291e;
+}
+
+svg .line-chart #plot path.line4 {
+    stroke: #7e291e;
+}
+
+svg .bar-chart #plot .bar5 rect,
+svg #legend .group5 circle {
+    fill: #fd7562;
+}
+
+svg .line-chart #plot path.line5 {
+    stroke: #fd7562;
+}
+
+svg .bar-chart #plot text {
+    fill: #222;
+    font-size: 14px;
+}
+
+svg #zeroline {
+    stroke: #222;
+    stroke-width: 2px;
+    stroke-linecap: square;
+}
