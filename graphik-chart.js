@@ -71,12 +71,12 @@ function GraphikChart(display, layout) {
             .attr('id', 'credit')
             .attr('dy', '1em')
             //.text(config.credit)
-            .text("JOTA.INFO")
+            .text("JOTA.INFO " + config.credit)
 
         var source = footer.append('text')
             .attr('id', 'source')
             .attr('dy', '1em')
-            .text(config.source)
+            .text('Fonte: ' + config.source)
 
         source.attr('x', layout.width - layout.padding.left - layout.padding.right - source.node().getBBox().width)
 
