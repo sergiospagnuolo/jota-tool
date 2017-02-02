@@ -6,7 +6,7 @@ svg {
 }
 ``
 svg #title {
-    fill: #222;
+    fill: #32100c;
     font-size: 32px;
     font-weight: bold;
 }
@@ -67,29 +67,29 @@ svg .line-chart #plot path.line0 {
 
 svg .bar-chart #plot .bar1 rect,
 svg #legend .group1 circle  {
-    fill: #fecbc4;
+    fill: #feedeb;
 }
 
 svg .line-chart #plot path.line1 {
-    stroke: #fecbc4;
+    stroke: #feedeb;
 }
 
 svg .bar-chart #plot .bar2 rect,
 svg #legend .group2 circle {
-    fill: #32100c;
+    fill: #febab1;
 }
 
 svg .line-chart #plot path.line2 {
-    stroke: #32100c;
+    stroke: #febab1;
 }
 
 svg .bar-chart #plot .bar3 rect,
 svg #legend .group3 circle {
-    fill: #fea99d;
+    fill: #fd8676;
 }
 
 svg .line-chart #plot path.line3 {
-    stroke: #fea99d;
+    stroke: #fd8676;
 }
 
 svg .bar-chart #plot .bar4 rect,
@@ -103,11 +103,11 @@ svg .line-chart #plot path.line4 {
 
 svg .bar-chart #plot .bar5 rect,
 svg #legend .group5 circle {
-    fill: #fd7562;
+    fill: #32100c;
 }
 
 svg .line-chart #plot path.line5 {
-    stroke: #fd7562;
+    stroke: #32100c;
 }
 
 svg .bar-chart #plot text {
